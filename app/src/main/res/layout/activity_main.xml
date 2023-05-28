@@ -20,6 +20,7 @@
             android:layout_gravity="center"
             android:text="게임시작"
             android:textSize="50dp"
+            android:onClick="game_start"
             />
     </LinearLayout>
     <LinearLayout
@@ -34,7 +35,9 @@
             android:layout_margin="170dp"
             android:text="게임종료"
             android:layout_gravity="center"
-            android:textSize="50dp" />
+            android:textSize="50dp"
+            android:onClick="game_end"
+            />
 
     </LinearLayout>
 
