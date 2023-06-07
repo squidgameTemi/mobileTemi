@@ -46,5 +46,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void game_end(View view){
         databaseReference.child("game").setValue(0);
+        databaseReference.child("time_over").setValue(0);
     }
 }
